@@ -60,7 +60,7 @@ public class MainController extends JFrame {
             }
         });
 
-        jarvisMicroDetector.addMicroLevelListener(new MicroDetectorAdapter() {
+        jarvisMicroDetector.addRecordingListener(new MicroDetectorAdapter() {
             @Override
             public void recordingListener(boolean onRecording) {
                 if (onRecording) {
