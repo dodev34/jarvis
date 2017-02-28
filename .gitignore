@@ -1,0 +1,8 @@
+# File: .gitignore
+
+*.DS_Store
+composer.lock
+
+/src/test
+/.idea
+/src/main/java/com.m12u/DemoJarvis.java
